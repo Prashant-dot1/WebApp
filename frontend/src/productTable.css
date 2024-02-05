@@ -1,0 +1,43 @@
+/* ProductTable.css */
+
+.product-table-container {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-x: auto; /* Allow horizontal scrolling */
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  thead {
+    background-color: #f2f2f2;
+  }
+  
+  th, td {
+    padding: 7px; /* Adjusted padding for better spacing */
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd; /* Added border to the right */
+    font-size: 14px; /* Adjusted font size */
+    white-space: nowrap; /* Prevent text wrapping */
+  }
+  
+  th:last-child, td:last-child {
+    border-right: none; /* Remove right border for the last column */
+  }
+  
+  th {
+    cursor: pointer;
+  }
+  
+  th:hover {
+    background-color: #ddd;
+  }
+  
